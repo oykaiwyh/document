@@ -1,0 +1,28 @@
+1.初始化安装egg：npm i egg-init -g(全局安装，已安装过的不用)
+
+2.进入项目文件：cd.....
+
+3.使用脚手架命令创建项目：egg-init test --type=simple
+
+4.安装依赖：进入项目目录  cd....    ,然后执行：npm install
+
+5.cd....  npm run dev
+
+
+
+目录结构
+
+
+
+app：项目结构文件
+     router.js:路由配置
+     public：静态资源文件（css , js , images）	
+   
+
+
+
+config：配置文件
+
+
+
+
