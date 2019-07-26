@@ -22,6 +22,4 @@
 
 
 	注意：git branch -r  //查看远程分支
-
-
 	          git pull origin master  //拉取远程最新信息到本地分支
