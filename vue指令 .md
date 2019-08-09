@@ -36,7 +36,7 @@
 
 12. @click.stop    阻止上层事件的触发---父包含子，两者都有点击事件，给子加上该属性，就会阻止父的触发
 
-13. 
+13. Vue.use()      可将一些组件封装为插件的形式来达到加载速度的优化，在使用Vue.use（）时，它会在new Vue（）之前执行。
 
 ### vue提供数组方法
 
@@ -67,7 +67,6 @@
 2. window.navigator.userAgent.toLocaleLowerCase()              //返回浏览器UA标识，即浏览器的内核 版本之类的信息，ie浏览器使用chrome渲染
 3. JSON.stringify()                             //将数据json化，深拷贝
 4. JSON.parse()                                  //将数据js对象化，深拷贝    必须是json数据
-
 5. forEach（）                                  //是用来遍历数组的
 6. Object.keys（）                            //拿到对象中的key，数组的下标   返回的都是数组
 7. Object.keys(list).map(key=> list[key])    将一个{}存储的多数据变为数组[]存储
@@ -81,6 +80,8 @@
     @ slice方法返回一个新的数组，不修改原始数组数据   slice（start ，end） 筛选start位置到 end-1 的位置的数组重新组成一个新数组，end未指定时，start开始切分原始数组结束
 15. sort 排序
 16. reserve  取反
+17. includes（）                       针对于数组，查询数组是否包含某个字段
+18. hasOwnProperty（）       针对于对象，查询对象是否包含某个属性
 
 
 

@@ -1,6 +1,6 @@
 #### git
 
-1. 建立ssh连接
+1. 建立ssh连接（与本github账号做ssh密钥链接）
 
 2. git init
 

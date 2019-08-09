@@ -27,6 +27,7 @@
 ```
 //git 本地合并到主分支
 1. git checkout master
+2.git pull 					//拉取最新代码
 2.git merge 子分支
 3.git push origin  //合并到主分支
 ```
@@ -47,5 +48,6 @@
 11.git pull								//拉取代码到本地
 12.git push --set-upstream origin 'originname'				//将本地分支设为远程分支
 13.git clone '项目http或者ssh链接'							//将远程代码拉取到本地
+14.git remote origin 'originname' 							//删除远程分支
 ```
 
