@@ -73,6 +73,8 @@
 
 19. this.$nextTick()将回调延迟到下次 DOM 更新循环之后执行。
     在create里使用时，等待dom挂载之后在执行this.$nextTick(）回调的内容，可参考https://www.cnblogs.com/jin-zhe/p/9985436.html
+    
+20. 在vue中，main.js里导入的文件都会在Vue对象创建时执行
 
 ### vue提供数组方法
 

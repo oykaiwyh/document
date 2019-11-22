@@ -72,6 +72,8 @@
 9、git pull origin master	//拉取最新代码到本地yy分支上
 
 10、git push --set-upstream origin yy   	//设置本地分支追踪远程分支yy，只使用一次，之后直接使用git push即可
+11、git push (-u) origin master    将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了
+12、git diff HEAD^     查看更新代码
 ```
 
 ### git本地命令合并仓库分支
